@@ -1,50 +1,32 @@
-# Welcome to your Expo app 👋
+# 🍔 Food Cart App – Final Interview Round 🚀
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a **React Native (Expo)** app built for the **final interview round**, showcasing smooth onboarding, authentication, global state management, and seamless payments.  
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+### 📱 Core Functionality  
+✅ **Onboarding Screen** – Interactive **Swiper** for a smooth introduction.  
+✅ **Authentication** – Secure login via **Google & GitHub OAuth 2.0**.  
+✅ **Home Screen** – Browse a **list of food items**, with **search & filter**.  
+✅ **Cart System** – Add/remove food items dynamically.  
+✅ **Redux Toolkit** – Global state management for real-time updates.  
+✅ **Persistent Auth** – User data stored in **AsyncStorage** for session management.  
+✅ **Navigation** – **Stack Navigation** ensures smooth screen transitions.  
 
-2. Start the app
+### 💳 Payments  
+💰 **Stripe Test API** for seamless checkout.  
+💳 Use **4242 4242 4242 4242** (Test Card) for transactions.  
+🔄 **New Payment Intent** generated via **Axios** for every checkout.  
+✅ **Successful payments** redirect users **home** and **clear the cart**.  
 
-   ```bash
-    npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+![Swiper](./readme_assets/image.png)
+![Login](./readme_assets/login.png)
+![AsyncStore](./readme_assets/async_store.png)
+![Home](./readme_assets/home.png)
+![Cart](./readme_assets/cart.png)
+![Payment](./readme_assets/payment.png)
+![Credentials](./readme_assets/payment_creds.png)
